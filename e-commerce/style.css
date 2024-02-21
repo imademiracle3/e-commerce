@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div .nav-bar{
+    width: 100%;
+    background: black;
+    color: white;
+}
+.container1{
+display: flex;
+justify-content: space-between;
+padding-right: 50px;
+padding-left: 50px;
+border-bottom: 3px solid rgb(10, 10, 58);
+/* padding: auto; */
+background-color: aliceblue;
+background: black;
+align-items: center;
+
+}
+.audio{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.line{
+    list-style: none;
+    display: flex;
+    /* margin: 10px; */
+    color: rgb(248, 248, 248);
+    /* padding: 10px; */
+    justify-content: space-around;
+}
+.line li{
+    justify-content: space-between;
+    padding: 30px;
+    font-family:  sans-serif;
+    /* gap: 50px; */
+    /* align-content: space-around; */
+}
+.access{
+    text-decoration: none;
+    color: white;
+}
+.access:hover{
+    text-decoration: none;
+    color: rgb(20, 219, 63);
+    border-bottom: 3px dashed white;
+}
+.container2{
+    display: flex;
+    background: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.hero1{
+    color: white;
+    padding: 30px;
+    align-content: center;
+    align-items: center;
+}
+.product{
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    color: grey;
+}
+.headp{
+    font-size: 50px;
+}
+.letter{
+    padding: 5px;
+    color: grey;
+    padding-bottom: 10px;
+}
+.button{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    color: white;
+    border-color: none;
+    background-color: orangered;
+}
+.button:hover{
+    color: gray;
+    background: green;
+}
+.headphone{
+    margin-top: 70px;
+}
+.container3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px;
+    /* padding: 90px; */
+}
+.pic1{
+    background: rgb(228, 226, 226);
+    border-radius: 40px solid none;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.shop a{
+    text-decoration: none;
+    color: gray;
+
+}
+
+.shop a:hover{
+    color: forestgreen;
+    border-bottom: 5px solid gold;
+}
+.mark{
+
+}
+.container4{
+    background: url(./picture/smoke-298243_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 3px solid rgb(231, 11, 11); */
+    background-color: rgba(rgb(24, 24, 24), rgb(27, 27, 27), rgb(17, 17, 17), 0.4);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: brown;
+    margin: 50px;
+    border-radius:20px;
+
+}
+.fos{
+    padding: 30px;
+    color: rgb(60, 255, 0);
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.fos h1{
+    padding-bottom: 30px;
+
+}
+.fos p{
+    font-size: larger;
+    padding: 5px;
+    font-weight: bolder;
+}
+.fos button{
+    padding: 20px;
+    color: aliceblue;
+    background-color: black;
+    /* padding-top: 15px; */
+    margin-top: 15px;
+}
+.fos button:hover{
+    color: red;
+    background: white;
+    border-color: none;
+}
+.container5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+    border: 2px solid white;
+    background: rgb(192, 191, 191);
+    border-radius: 20px;
+    /* background-image: url(./picture/loudspeaker-1935858_1280-removebg-preview.png); */
+    /* background-repeat: no-repeat; */
+    
+
+
+}
+.image-adjustment {
+    width: 300px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+    background-image: url(./picture/loudspeaker-1935858_1280-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-color: #ffffff; /* Adjust the color as needed */
+    background-size: contain; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+}
+.container5 h1{
+    /* font-size: larger; */
+    padding-bottom: 20px;
+    fo
+}
+.container5 button{
+    padding-left: 30px;
+    padding-right: 40px;
+    padding: 20px;
+    font-size: bold;
+
+}
+.btn{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    
+}
+.container6{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+    /* margin-left: 400px; */
+    /* border: 3px solid black; */
+
+
+}
+.ear{
+ /* background-image: url(./picture/pic1-removebg-preview.png);  */
+ /* border: 2px solid rgb(243, 242, 242); */
+ width: 500px;
+ background-position: center;
+ background-size: contain;
+ background-repeat: no-repeat;
+ height: 400px;
+ top: -39px;
+ background-image: url(./picture/pic1-removebg-preview.png);
+ align-items: center;
+ border-radius: 20px;
+ background-color: rgb(143, 134, 134);
+ 
+ /* right: -400px;
+ left: -400px; */
+ /* height: 200px;
+ width: 400px; */
+ /* height: 200px;
+ width: 400px; */
+}
+.EAR1{
+    background-color: gray;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+    /* width: 200px;
+    height: 400px; */
+}
+.btn1{
+    margin-top: 20px;
+    padding: 20px;
+}
+.btn1:hover{
+    color: aqua;
+    border-bottom: brown;
+    background-color: blue;
+    border-radius: 50px;
+}
+.container7{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+}
+.Red{
+    line-height: 1.5;
+}
+.best{
+    color: red;
+}
+.solc{
+    /* border: 3px solid gray; */
+    border-radius: 10px;
+    border-color: none;
+    background-color: gray;
+    background-image: url(./picture/smiling-888532_1920.jpg);
+    /* position: relative; */
+    
+}
+.container8{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    height: 400px;
+    
+}
+/* .orange{
+    /* margin: 0;
+    padding: 0; */
+    /* background-color: orange;
+    width: 160px;
+    height: 10px; */
+    /* position: absolute; */
+}*/
+.Aud{
+    padding-top: 70px;
+}
+.container81 p{
+    line-height: 1.5;
+    color: gray;
+}
+
+.spo ul{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+.spo ul li{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+.spo ul li a{
+    text-decoration: none;
+    color: white;
+}
+.spo ul li a:hover{
+    text-decoration: none;
+    color: rgb(115, 15, 230);
+   
+    border-bottom:2px solid white ;
+    padding-bottom: 30px;
+    /* background-image: url(./picture/gemstone-602252_1280.jpg); */
+}
+.roxl{
+    margin-left: 120px;
+    margin-top: 60px;
+}
